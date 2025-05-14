@@ -8,6 +8,9 @@
     
 }
 
+body {
+  overflow-x: hidden;
+}
 
 h2{
     font-size: 36px;
@@ -37,7 +40,7 @@ a{
     align-items: center;
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 .navegator_master{
@@ -47,7 +50,7 @@ a{
     padding: 20px 0 20px 40px;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     
 }
 
@@ -416,6 +419,7 @@ i.bi.bi-shield-check {
 
 
 .box_master{
+    
     width: 360px;
     height: 256px;
     background-color: #2f1c6a;
@@ -621,6 +625,7 @@ i.bi.bi-shield-check {
         height:280px ;
     }
     .box_into{
+        max-width: 100%;
         width:250px ;
         height:250px ;
     }
@@ -687,6 +692,7 @@ i.bi.bi-shield-check {
         height: 208px;
     }
     .box_into{
+        max-width: 100%;
         width: 624px;
         height: 144px;
     }
@@ -744,12 +750,13 @@ i.bi.bi-shield-check {
     }
     
     .box_master{
-        width: 508px;
+       width: 508px;
         height: 208px;
     }
 
     .box_into{
-        width: 440px;
+        max-width: 100%;
+       width: 440px;
         height: 144px;
     }
     
@@ -810,13 +817,14 @@ i.bi.bi-shield-check {
     }
     
     .box_cards{
-        width:;
+        
     }
     .box_master{
         width: 440px;
         height: 232px;
     }
     .box_into{
+        max-width: 100%;
         width: 378px;
         height: 72px;
     }
@@ -825,6 +833,7 @@ i.bi.bi-shield-check {
     }
 }
 @media (max-width:462px){
+
 
     .text_box_migration h2{
         font-size: 18px;
@@ -837,15 +846,16 @@ i.bi.bi-shield-check {
     }
 
     .box_master{
+        max-width: 100%;
         max-width: 360px;
         max-height: 200px;
     }
     .box_into{
-        height: 307px;
+       max-width: 100%;
         height: 70px;
     }
     .paragraph_card p{
-        width: 307px;
+        max width: 100%;
         height: 72px;
         font-size: 12px;
     }
