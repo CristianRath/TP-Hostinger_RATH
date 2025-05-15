@@ -9,7 +9,7 @@
 }
 
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 h2{
@@ -294,9 +294,6 @@ i.bi.bi-list {
     gap: 15px;
 }
 
-.button_empezar_ya{
-    
-}
 
 .button_empezar_ya a{
     
@@ -529,7 +526,6 @@ i.bi.bi-shield-check {
 .footer_payment_methods {
     display: flex;
     flex-direction: row;
-    
     align-items: center;
     gap: 10px;
 }
@@ -655,7 +651,7 @@ i.bi.bi-shield-check {
     .footer{
         margin-left: auto;
         margin-right: auto;
-        }
+    }
         
         .footer_medium{
         display: flex;
@@ -663,15 +659,10 @@ i.bi.bi-shield-check {
         gap: 20px;
         
     } 
-    
-        
-    
     .footer_copyright{
         flex-direction: column;
         gap: 20px;
     }
-
-
 }
 
 @media (max-width:1024px){
@@ -707,7 +698,6 @@ i.bi.bi-shield-check {
 }
 
     .box_hero{
-        
         padding: 0 5px 0px 5px;
     }
 
@@ -750,13 +740,13 @@ i.bi.bi-shield-check {
     }
     
     .box_master{
-       width: 508px;
+        width: 508px;
         height: 208px;
     }
 
     .box_into{
         max-width: 100%;
-       width: 440px;
+        width: 440px;
         height: 144px;
     }
     
@@ -812,13 +802,7 @@ i.bi.bi-shield-check {
     .migration{
     padding: 20px 20px 40px 20px;
     }
-    .text_box_migration{
         
-    }
-    
-    .box_cards{
-        
-    }
     .box_master{
         width: 440px;
         height: 232px;
@@ -828,13 +812,13 @@ i.bi.bi-shield-check {
         width: 378px;
         height: 72px;
     }
-    .botton_empezar{
-        
-    }
+    
 }
 @media (max-width:462px){
 
-
+    .parrafo_garant_hero{
+        font-size: 12px;
+    }
     .text_box_migration h2{
         font-size: 18px;
         
@@ -848,10 +832,10 @@ i.bi.bi-shield-check {
     .box_master{
         max-width: 100%;
         max-width: 360px;
-        max-height: 200px;
+        max-height: 220px;
     }
     .box_into{
-       max-width: 100%;
+        max-width: 100%;
         height: 70px;
     }
     .paragraph_card p{
@@ -859,11 +843,28 @@ i.bi.bi-shield-check {
         height: 72px;
         font-size: 12px;
     }
-    .botton_empezar{
-        
-    }
+
     .footer_container{
         padding: 20px 20px 0px 20px;
     } 
     
+@media (max-width:382px){
+    .box_master{
+        max-width: 100%;
+        max-width: 320px;
+        max-height: 220px;
+    }
+    .box_into{
+        max-width: 100%;
+        height: 50px;
+    }
+    .paragraph_card p{
+        max width: 100%;
+        height: 72px;
+        font-size: 12px;
+    }
+    .footer_container{
+        padding: 20px 0px 0px 0px;
+    }
+    }
 }
