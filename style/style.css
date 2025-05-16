@@ -182,7 +182,33 @@ i.bi.bi-list {
 }
 
 
+.button_chat {
+    padding: 12px 12px 12px 10px;
+    border-radius: 100px;
+    border: none;
+    position:fixed;
+    background-color:#673de6;
+    color:#ffffff;
+    bottom: 12px;
+    right: 10px;
+    width: fit-content;
+    font-size: 14px;
+    transition: background-color .1s ease-in-out,transform .1s ease-in-out;
+    
+}
 
+.button_chat a{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+    font-weight: 800;
+    
+}
+
+.button_chat:hover{
+    background-color:#5025d1;
+}
 
 .container{
     margin-top: 70px;
