@@ -709,7 +709,7 @@ i.bi.bi-shield-check {
 }
 
 
-@media (max-width:768px){
+@media (max-width:767px){
     
 .hero{
     margin: 120px 0px 10px 0px;
@@ -790,7 +790,7 @@ i.bi.bi-shield-check {
         padding-bottom: 30px;
     }
     .footer_payment_methods{
-        display: none;
+        flex-wrap: wrap;
     }
     .footer_Responsive{
         display: block;
